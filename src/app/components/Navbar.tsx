@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link href="/projects" className="text-gray-300 hover:text-white transition">
             Projects
           </Link>
-          <Link href="/cv" className="text-gray-300 hover:text-white transition">
+          <Link href="/CV" className="text-gray-300 hover:text-white transition">
             CV
           </Link>
           <Link href="/about" className="text-gray-300 hover:text-white transition">
