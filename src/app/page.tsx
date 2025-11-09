@@ -6,7 +6,7 @@ export default function Home() {
 
       <div className="mt-6 grid grid-cols-3 gap-6 items-center">
 
-        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg">
+        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg border border-gray-900">
           <img
             src="/photos/photo1.jpg"
             alt="Profile 1"
@@ -14,7 +14,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg">
+        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg border border-gray-900">
           <img
             src="/photos/photo3.jpg"
             alt="Profile 3"
@@ -23,7 +23,7 @@ export default function Home() {
           />
         </div>
         
-        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg">
+        <div className="w-[300px] h-[300px] overflow-hidden rounded-2xl shadow-lg border border-gray-900">
           <img
             src="/photos/photo2.jpg"
             alt="Profile 2"
@@ -32,9 +32,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6" style={{ maxWidth: '948px', width: '100%' }}>
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6" style={{ maxWidth: '948px', width: '100%' }}>
 
-        <div className="flex-1 bg-black border border-white rounded-2xl p-6">
+        <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
           <h2 className="text-2xl font-semi-bold mb-4 text-white">Education</h2>
           <ul className="text-white list-disc list-outside pl-4 space-y-2">
             <li>BEng Engineering Mathematics, Bristol University </li>
@@ -45,12 +45,24 @@ export default function Home() {
         </div>
       
 
-        <div className="flex-1 bg-black border border-white rounded-2xl p-6">
+        <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
           <h2 className="text-2xl font-semi-bold mb-4 text-white">Contact</h2>
           <ul className="text-white list-disc list-outside pl-4 space-y-2">
-            <li>Email: sz.wyrozumski@gmail.com</li>
+            <li>Email: sz.wyrozumski@gmail.com </li>
             <li>LinkedIn: Szymon Wyrozumski</li>
             <li>Github: Szymonwyro</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-1 gap-6" style={{ maxWidth: '948px', width: '100%' }}>
+
+        <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
+          <h2 className="text-2xl font-semi-bold mb-4 text-white">Projects</h2>
+          <ul className="text-white list-disc list-outside pl-4 space-y-2">
+            <li><strong>Extended Project Qualification (EPQ)</strong> - A detailed analysis of relevant literature on HFT's market impact, with regards to efficiency, strategy and regulation. <strong>Achieved 94% (A*)</strong></li>
+            <li><strong>Machine Learning strategy comparison for FX</strong> - A comparison between a macroeconomic-integrated ML model vs a price-action only ML model to optimise predictive power in FX markets (EUR/GBP/USD/JPY)</li>
+            <li><strong>C++ Backtesting Engine</strong> - A C++ based engine for backtesting trading strategies with a focus on performance and accuracy.</li>
           </ul>
         </div>
       </div>

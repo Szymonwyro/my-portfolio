@@ -2,16 +2,18 @@ export default function About() {
   return (
     <main className="flex flex-col items-center justify-start min-h-screen bg-gradient-to-b from-black to-gray-900 p-8">
       
-      <h1 className="text-5xl font-bold mb-6 text-white">About Me</h1>
+      <h1 className="text-5xl font-bold mb-8 text-white">About Me</h1>
 
-      <div className="text-lg text-white mb-8 max-w-3xl space-y-4">
+      <div className="text-lg text-white mb-4 max-w-3xl space-y-6">
         <p>
           I am applying to start university in the UK in 2026. I am applying to study 
-          <strong> Engineering Mathematics (Bristol, BEng)</strong>, 
-          <strong> Computer Science and Mathematics (Durham, BSc)</strong>, 
-          <strong> Computer Systems Engineering (Warwick, BEng)</strong>, 
-          <strong> Electrical and Electronic Engineering (Bath, BEng)</strong>, 
-          <strong> Electronics Engineering (KCL, BEng)</strong>.
+          <ul className="list-disc list-inside">
+            <li><strong> Engineering Mathematics (Bristol, BEng)</strong></li> 
+            <li><strong> Computer Science and Mathematics (Durham, BSc)</strong></li>
+            <li><strong> Computer Systems Engineering (Warwick, BEng)</strong></li>
+            <li><strong> Electrical and Electronic Engineering (Bath, BEng)</strong></li>
+            <li><strong> Electronics Engineering (KCL, BEng)</strong></li>
+          </ul>
         </p>
 
         <p>
