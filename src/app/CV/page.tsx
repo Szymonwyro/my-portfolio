@@ -1,4 +1,4 @@
-export default function Home() {
+export default function CV() {
   return (
     <main className="flex flex-col items-center justify-start min-h-screen bg-gradient-to-b from-black to-gray-900 p-8">
       <h1 className="text-5xl font-bold mb-4 text-white-600">Resume Viewer</h1>
