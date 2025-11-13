@@ -28,10 +28,10 @@ export default function Home() {
           >
             <img
               src="/photos/ML_model.png"
-              alt="Macroeconomic FX ML project"
+              alt="ML Strategy Comparison in FX"
               className="w-full h-[300px] object-cover rounded-2xl"
             />
-            <h3 className="mt-4 text-2xl font-semibold text-white">ML project in FX</h3>
+            <h3 className="mt-4 text-2xl font-semibold text-white">ML Strategy Comparison in FX</h3>
           </Link>
         </div>
 
@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
           <Link
-            href="/projects/project-details/C++BacktestingEngine"
+            href="/projects/project-details/CppBacktestingEngine"
             className="flex-1 bg-black border-border-gray-900 rounded-2xl p-2 block hover:scale-[1.02] hover:border-gray-700 transition-transform duration-300"
           >
             <img
