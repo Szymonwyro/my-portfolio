@@ -5,7 +5,7 @@ export default function About() {
       <h1 className="text-5xl font-bold mb-8 text-white">About Me</h1>
 
       <div className="text-lg text-white mb-4 max-w-3xl space-y-6">
-        <p>
+        <h2>
           I am applying to start university in the UK in 2026. I am applying to study 
           <ul className="list-disc list-inside">
             <li><strong> Engineering Mathematics (Bristol, BEng)</strong></li> 
@@ -14,7 +14,7 @@ export default function About() {
             <li><strong> Electrical and Electronic Engineering (Bath, BEng)</strong></li>
             <li><strong> Electronics Engineering (KCL, BEng)</strong></li>
           </ul>
-        </p>
+        </h2>
 
         <p>
           I completed my A-Levels in 2025 and I am building projects before I begin my studies at university.
