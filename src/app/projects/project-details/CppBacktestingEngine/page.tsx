@@ -1,6 +1,6 @@
 import WorkInProgress from "@/app/components/WorkInProgress";
 
-export default function CppEnginePage() {
+export default function CppBacktestingEngine() {
   return (
     <WorkInProgress
       title="C++ Backtesting Engine"
