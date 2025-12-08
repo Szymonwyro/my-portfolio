@@ -37,7 +37,7 @@ export default function Home() {
         <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
           <h2 className="text-2xl font-semi-bold mb-4 text-white">Education</h2>
           <ul className="text-white list-disc list-outside pl-4 space-y-2">
-            <li>BEng Engineering Mathematics, Bristol University </li>
+            <li>MEng Engineering Mathematics, Bristol University </li>
             <li>A-Levels: <strong>A*AAA + A*</strong><br />
               Maths, Further Maths, Economics, Latin + EPQ </li>
             <li>GCSEs: 999999888</li>
