@@ -6,13 +6,13 @@ export default function About() {
 
       <div className="text-lg text-white mb-4 max-w-3xl space-y-6">
         <h2>
-          I am applying to start university in the UK in 2026. I am applying to study 
+          I am applying to start university in the UK in 2026. I am applying to study: 
           <ul className="list-disc list-inside">
             <li><strong> Engineering Mathematics (Bristol, BEng)</strong></li> 
             <li><strong> Computer Science and Mathematics (Durham, BSc)</strong></li>
             <li><strong> Computer Systems Engineering (Warwick, BEng)</strong></li>
-            <li><strong> Electrical and Electronic Engineering (Bath, BEng)</strong></li>
-            <li><strong> Electronics Engineering (KCL, BEng)</strong></li>
+            <li><strong> Computer Science (Bath, BSc)</strong></li>
+            <li><strong> Computer Science (St. Andrew's, BSc)</strong></li>
           </ul>
         </h2>
 
@@ -32,7 +32,7 @@ export default function About() {
           <li>TypeScript / JavaScript</li>
           <li>React / Next.js</li>
           <li>CSS / Tailwind</li>
-          <li>Node.js / APIs</li>
+          <li>APIs</li>
           <li>Python</li>
         </ul>
       </section>
