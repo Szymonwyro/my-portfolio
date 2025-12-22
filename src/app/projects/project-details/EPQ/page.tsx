@@ -26,10 +26,10 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+                <li>Intially pursued a question on factors affecting economic development</li>
+                <li>Pivotted towards options-pricing and derivatives</li>
+                <li>Finalized on algorithmic trading and HFT's impact on markets</li>
             </div>
           </div>
         </div>
@@ -48,10 +48,10 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+              <li>Defining High-Frequency Trading</li>
+              <li>Outlining the prominent trading strategies in HFT</li>
+              <li>Criteria for identifying market impact due to HFT</li>
             </div>
           </div>
         </div>
@@ -70,10 +70,10 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+              <li>Investigating changes to market making strategies</li>
+              <li>Examining the role of tick-size constraints</li>
+              <li>The rise of predatory trading practices</li>
             </div>
           </div>
         </div>
@@ -92,10 +92,10 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+              <li>Liquidity as a condition for market efficiency</li>
+              <li>The impact of spoofing on market efficiency</li>
+              <li>Using pricing and costs as a measure of market efficiency</li>
             </div>
           </div>
         </div>
@@ -114,10 +114,10 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+              <li>Current approaches to regulation</li>
+              <li>The relationship between innovation and regulation</li>
+              <li>Issues with enforcement of regulation</li>
             </div>
           </div>
         </div>
@@ -136,14 +136,35 @@ export default function EPQPage() {
             : "max-h-0 opacity-0"
       }`}
           >
-            <div className="text-gray-300 text-sm leading-relaxed">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
+            <div className="text-gray-300 text-s leading-relaxed">
+              <li>Clear and widespread impact on market dynamics</li>
+              <li>Development of new strategies is evidence of HFT impact</li>
+              <li>Regulatory changes are necessary to address HFT challenges</li>
             </div>
           </div>
         </div>
-        
+      </div>
+
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 flex space-x-4">
+        <a 
+          href="/documents/EPQ_Szymon_Wyrozumski.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+        >
+          <Link className="mr-2" />
+          View Full EPQ Document
+        </a>
+
+        <a
+          href="/documents/EPQ_diary.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+        >
+          <Link className="mr-2" />
+          View EPQ Diary
+        </a>
       </div>
     </main>
   );
