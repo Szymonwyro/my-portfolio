@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="flex-1 bg-black border border-gray-900 rounded-2xl p-6">
           <Link
-            href="/projects/project-details/MacroML"
+            href="/projects/project-details/MLBacktest"
             className="flex-1 bg-black border-border-gray-900 rounded-2xl p-2 block hover:scale-[1.02] hover:border-gray-700 transition-transform duration-300"
           >
             <img

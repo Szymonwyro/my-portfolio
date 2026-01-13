@@ -86,7 +86,7 @@ export default function BacktestWidget() {
           <select
             value={selectedPair}
             onChange={(e) => setSelectedPair(e.target.value)}
-            className="ml-2 p-1 border rounded"
+            className="ml-2 p-1 border rounded "
           >
             {fxPairs.map((pair) => (
               <option key={pair} value={pair}>{pair}</option>
@@ -115,6 +115,8 @@ export default function BacktestWidget() {
           {loading ? "Running..." : "Backtest"}
         </button>
       </div>
+
+      {loading && <p className="text-gray-500">Backtesting {selectedPair} with {selectedWindow} window...</p>}
 
       {error && <p className="text-red-500 mt-2">{error}</p>}
 
