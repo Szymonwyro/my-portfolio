@@ -8,10 +8,24 @@ export default function EPQPage() {
   const [activeCard, setActiveCard] = useState<string | null>(null);
   return (
     <main className="flex flex-col items-center justify-start min-h-screen bg-gradient-to-b from-black to-gray-900 p-8">
-      <h1 className="text-5xl text-center font-bold mb-4 text-white-600 ">"To what extent has the rise of High-Frequency Trading transformed markets?"</h1>
-        <p className="text-xl text-white-700 mb-6">A showcase of my research and work</p>
+      <h1 className="text-5xl text-center font-bold mb-4 text-white-600">"To what extent has the rise of High-Frequency Trading transformed markets?"</h1>
+        <p className="text-2xl text-white-700 mb-6">An analysis of systems and market structure</p>
+        <p className="text-xl text-white-700 mb-6">Research | Market Microstructure | Limit Order Book | Trading Systems | Strategy</p>
       <div className="mt-6 grid grid-cols-6 md:grid-cols-1 gap-6" style={{ maxWidth: '948px', width: '100%' }}>
         
+        <div>
+          <hr className="border-gray-700 mb-6" />
+          <h1 className="text-2xl font-bold mb-4 text-white">Problem</h1>
+          <p className="text-gray-300 text-s leading-relaxed">
+            High-Frequency Trading (HFT) dominates modern financial markets, 
+            leveraging infrastructure and algorithms to execute trades at unprecedented speeds. 
+            This project investigates the extent to which HFT has transformed market dynamics, 
+            liquidity, volatility, and overall efficiency. By analyzing various aspects of HFT's impact, 
+            this study seeks to provide a comprehensive understanding of how these rapid trading strategies 
+            have reshaped financial markets.
+          </p>
+          <hr className="border-gray-700 mt-6" />
+        </div>
         <div 
           onClick={() => 
             setActiveCard(activeCard === 'background' ? null : 'background')} 
@@ -145,6 +159,7 @@ export default function EPQPage() {
         </div>
       </div>
 
+      {/* Download Buttons */}
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 flex space-x-4">
         <a 
           href="/documents/EPQ_Szymon_Wyrozumski.pdf" 
