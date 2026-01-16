@@ -14,10 +14,9 @@ export default function BackpropPage() {
       <DigitRecognizer />
       {!isNNApiAvailable && (
         <div style={{ marginTop: 8 }}>
-          {errorMessage && (
-           <p style={{ color: "red", marginTop: 8 }}>
-           {errorMessage} </p>
-)}
+           <p style={{ color: "white", marginTop: 8 }}>
+              Server status: Offline
+            </p>
         </div>
       )}
 
