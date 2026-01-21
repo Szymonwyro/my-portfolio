@@ -49,6 +49,7 @@ const DigitRecognizer: React.FC = () => {
     const ctx = canvas.getContext("2d")!;
     ctx.fillStyle = "white";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
     setPrediction(null);
     setErrorMessage(null);
   };
@@ -142,7 +143,7 @@ const DigitRecognizer: React.FC = () => {
         style={{
           border: "2px solid #063052",
           borderRadius: 8,
-          backgroundColor: "white",
+          backgroundColor: "black",
           cursor: "crosshair",
         }}
       />
